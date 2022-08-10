@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  color: black;
+  margin: 0;
+}
+
+body {
+  background-color: gray;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+#wrapper {
+  max-width: 375px;
+
+  padding: 24px;
+  margin: 0 auto;
+  height: 812px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+#header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 48px;
+
+}
+
+.bi-arrow-clockwise {
+    font-size: 24px;
+}
+
+
+
+/* FIRST SECTION */
+
+
+
+#firstSection {
+  margin-bottom: 32px;
+}
+
+.sectionTitle {
+  font-weight: 500;
+}
+
+.sectionSubtitle {
+  font-weight: 400;
+  font-size: 12px;
+  color: #b9b9b9;
+}
+
+#billInputContainer {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  padding-left: 16px;
+  margin-top: 4px;
+}
+
+#billInputDiv {
+    height: 100%;
+}
+
+
+#dolarSign1 {
+  font-size: 16px;
+}
+
+#billInput {
+  border: none;
+  font-weight: 500;
+  font-size: 32px;
+  max-width: 112px;
+  height: 100%;
+}
+
+#billInput::placeholder {
+  color: #CBCBCB;
+}
+
+
+
+/* SECOND SECTION  */
+
+
+
+#shapes {
+  position: absolute;
+  z-index: 0;
+}
+
+#secondSection {
+  display: flex;
+  height: 150px ;
+}
+
+#chooseTip {
+  width: 50%;
+  padding: 18px 20px 16px 16px;
+  z-index: 1;
+}
+
+#chooseTipTitle {
+  margin-left: 4px;
+}
+
+#chooseTipSubsection,
+#splitSubsection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+  max-height: 36px;
+  margin-top: 12px;
+}
+
+#tipInputContainer,
+#splitInputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px;
+}
+
+#tipValue {
+  max-width: 36px;
+  font-size: 24px;
+}
+
+#tipInput::placeholder {
+  color: #CBCBCB;
+}
+
+#tipValue {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+#tipIncreaseButton,
+#tipDecreaseButton,
+#splitIncreaseButton,
+#splitDecreaseButton {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1px solid #3054E6;
+  background-color: white;
+  color: #3054E6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+#tipIncreaseButton:hover,
+#tipDecreaseButton:hover,
+#splitIncreaseButton:hover,
+#splitDecreaseButton:hover {
+  background-color: #3054E6;
+  color: white;
+}
+
+#percent {
+  font-size: 24px;
+  font-weight: 400;
+  align-self: center;
+}
+
+#splitBy {
+  width: 50%;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 12px 12px 20px;
+  z-index: 1;
+}
+
+#splitSubsection {
+  margin-top: 12px;
+}
+
+#splitByTitle {
+  margin-right: 4px;
+  align-self: flex-end;
+}
+
+#splitInputContainer {
+  justify-content: center;
+  padding: 0 8px;
+  /* width: 88px; */
+  align-items: center;
+}
+
+#numberOfPeople {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+#people {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+/* THIRD SECTION */
+
+
+
+#thirdSection {
+  /* outline: 1px solid; */
+  border-radius: 16px;
+  padding: 16px;
+  margin-top: 48px;
+  background-color: #3054E6;
+}
+
+#perPersonContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-height: 32px;
+  gap: 24px;
+}
+
+#perPersonTitle {
+  font-weight: 500;
+}
+
+#pricePerPerson {
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+}
+
+#dolarSign {
+  font-size: 24px;  
+}
+
+#perPersonTitle,
+#dolarSign {
+  color: white;
+}
